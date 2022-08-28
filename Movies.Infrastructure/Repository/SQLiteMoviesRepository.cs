@@ -2,9 +2,9 @@ using System.Collections.Generic;
 using Microsoft.Data.Sqlite;
 using Movies.Domain;
 
-namespace Movies.Repository.Services;
+namespace Movies.Infrastructure.Repository;
 
-public class MovieServices : IMovies
+public class SQLiteMoviesRepository : IMovies
 {
     public bool save(Movie movie)
     {

@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Domain", "Movies.Domain\Movies.Domain.csproj", "{5185EB0C-D21E-4E2F-A0FE-1FC94F17116F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Repository", "Movies.Repository\Movies.Repository.csproj", "{C0F75E2E-32BE-4FE5-B87B-34799B2FA1A8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Infrastructure", "Movies.Infrastructure\Movies.Infrastructure.csproj", "{C0F75E2E-32BE-4FE5-B87B-34799B2FA1A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Console", "Movies.Console\Movies.Console.csproj", "{3219AB31-0826-4761-BFE6-DDF8BF152622}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Movies.Console", "Movies.Console\Movies.Console.csproj", "{DB95BC80-8F96-433E-AE8A-7326266B9920}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,5 +30,9 @@ Global
 		{3219AB31-0826-4761-BFE6-DDF8BF152622}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3219AB31-0826-4761-BFE6-DDF8BF152622}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3219AB31-0826-4761-BFE6-DDF8BF152622}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB95BC80-8F96-433E-AE8A-7326266B9920}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB95BC80-8F96-433E-AE8A-7326266B9920}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB95BC80-8F96-433E-AE8A-7326266B9920}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB95BC80-8F96-433E-AE8A-7326266B9920}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
